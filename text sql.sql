@@ -133,3 +133,5 @@ Create view View_PercentPopulationVaccinated as
 		and dea.date=vac.date
 	where dea.continent is not null AND dea.continent <> ''
 	order by 2,3;
+-- Select View
+Select * from View_PercentPopulationVaccinated;
